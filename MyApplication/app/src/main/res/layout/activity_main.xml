@@ -13,4 +13,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ggikko.me.steppertest.stepper.SteppersView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </ScrollView>
+
+
 </RelativeLayout>
