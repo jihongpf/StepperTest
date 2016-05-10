@@ -12,10 +12,10 @@ import ggikko.me.steppertest.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentFour extends Fragment {
+public class FragmentFourth extends Fragment {
 
 
-    public FragmentFour() {
+    public FragmentFourth() {
         // Required empty public constructor
     }
 

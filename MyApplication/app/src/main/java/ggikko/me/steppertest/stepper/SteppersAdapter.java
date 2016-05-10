@@ -76,8 +76,7 @@ public class SteppersAdapter extends RecyclerView.Adapter<SteppersViewHolder> {
             v = LayoutInflater.from(parent.getContext())
                     .inflate(R.layout.steppers_item, parent, false);
         } else {
-            v = LayoutInflater.from(parent.getContext())
-                    .inflate(R.layout.steppers_item_expanded, parent, false);
+            v = LayoutInflater.from(parent.getContext()).inflate(R.layout.steppers_item_expanded, parent, false);
         }
 
         SteppersViewHolder vh = new SteppersViewHolder(v);

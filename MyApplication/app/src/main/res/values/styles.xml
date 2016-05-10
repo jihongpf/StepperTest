@@ -8,6 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="LabelActive">
         <item name="android:textSize">14sp</item>
         <!--<item name="android:textStyle">@integer/font_textStyle_medium</item>-->
@@ -16,6 +18,12 @@
     <style name="LabelInactive">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#BDBDBD</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
 

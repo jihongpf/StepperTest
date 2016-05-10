@@ -19,7 +19,7 @@
             android:layout_marginBottom="@dimen/item_line_first_margin"
             android:background="@color/circle_color_default_gray" />
 
-        <me.drozdzynski.library.steppers.RoundedView
+        <ggikko.me.steppertest.stepper.RoundedView
             android:id="@+id/roundedView"
             android:layout_width="@dimen/item_circle_width_height"
             android:layout_height="@dimen/item_circle_width_height"/>
