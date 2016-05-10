@@ -100,6 +100,7 @@ public class SteppersAdapter extends RecyclerView.Adapter<SteppersViewHolder> {
         else holder.roundedView.setCircleGrayColor();
 
         holder.textViewLabel.setText(steppersItem.getLabel());
+
         holder.textViewSubLabel.setText(steppersItem.getSubLabel());
 
         holder.linearLayoutContent.setVisibility(position == currentStep || position == beforeStep ? View.VISIBLE : View.GONE);
@@ -166,9 +167,7 @@ public class SteppersAdapter extends RecyclerView.Adapter<SteppersViewHolder> {
                 } else {
                     fragment = steppersItem.getFragment();
                     if(BuildConfig.DEBUG) Log.v(TAG, "Adding item #" + position + ": f=" + fragment + " n=" + name);
-                    fragmentTransaction.add(steppersView.getId(), fragment,
-                            name);
-
+                    fragmentTransaction.add(steppersView.getId(), fragment, name);
                 }
             }
 
