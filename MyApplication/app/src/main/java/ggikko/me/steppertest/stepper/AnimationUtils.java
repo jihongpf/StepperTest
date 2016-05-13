@@ -30,11 +30,11 @@ public class AnimationUtils {
 
     protected static void hide(final View view){
         Animation fadeOut = new AlphaAnimation(1, 0);
-        fadeOut.setDuration(500);
+        fadeOut.setDuration(1000);
 
         Animation collapse = new ExpandCollapse(view, view.getHeight(), 0);
-        collapse.setStartOffset(500);
-        collapse.setDuration(500);
+        collapse.setStartOffset(1000);
+        collapse.setDuration(1000);
 
         AnimationSet animation = new AnimationSet(false);
         animation.setInterpolator(new AccelerateInterpolator());

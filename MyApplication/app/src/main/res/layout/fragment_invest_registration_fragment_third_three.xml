@@ -1,0 +1,261 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.InvestRegistrationFragmentThirdThree">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:text="담보예금설정위탁 약관 동의"
+                    android:textColor="#2e303b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/white"
+                    android:padding="0dp"
+                    android:text="보기"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="-5dp">
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/invest_checkbox_three_one"
+                    style="@style/investSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/invest_checkbox_three_one"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:text="동의합니다"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <!-- 약관동의 3번 담보예금설정위탁 약관 동의 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:text="담보예금참가 약관 동의"
+                    android:textColor="#2e303b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/white"
+                    android:padding="0dp"
+                    android:text="보기"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="-5dp">
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/invest_checkbox_two"
+                    style="@style/investSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/invest_checkbox_two"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:text="동의합니다"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!-- 담보예금참가 약관 동의 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:text="개인(신용)정보 제 3자 제공 동의"
+                    android:textColor="#2e303b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/white"
+                    android:padding="0dp"
+                    android:text="보기"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="(담보예금참가 신청)"
+                android:textColor="#2e303b"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="-5dp">
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/invest_checkbox_three"
+                    style="@style/investSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/invest_checkbox_three"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:text="동의합니다"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:text="개인정보 수집이용 동의"
+                    android:textColor="#2e303b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/white"
+                    android:padding="0dp"
+                    android:text="보기"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="(담보제공 요청)"
+                android:textColor="#2e303b"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="-5dp">
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/invest_checkbox_four"
+                    style="@style/investSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/invest_checkbox_four"
+                    android:layout_centerVertical="true"
+                    android:textSize="14sp"
+                    android:text="동의합니다"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

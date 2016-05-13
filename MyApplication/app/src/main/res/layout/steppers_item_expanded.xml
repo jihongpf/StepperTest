@@ -48,13 +48,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@style/LabelActive"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
             tools:text="Main label of step" />
 
         <TextView
             android:id="@+id/textViewSubLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="14sp"
             android:textAppearance="@style/SubLabelActive"
+            android:lineSpacingExtra="2dp"
             tools:text="sub label of step" />
 
         <LinearLayout
@@ -77,7 +81,7 @@
                 android:layout_height="wrap_content">
 
                 <Button
-                    style="@style/Widget.AppCompat.Button.Colored"
+                    style="@style/Widget.AppCompat.Button.Colored.MyButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/step_continue"

@@ -1,9 +1,81 @@
 <resources>
     <string name="app_name">StepperTest</string>
-    <string name="step_continue">Continue</string>
-    <string name="step_finish">Finish</string>
-    <string name="step_cancel">Cancel</string>
+    <string name="step_continue">다음</string>
+    <string name="step_finish">완료</string>
+    <string name="step_cancel">취소</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- step3 -->
+    <string name="invest_register_step3_label">Step 3</string>
+    <string name="invest_register_step3_sublabel">투자 상품 안내</string>
+    <string name="invest_register_step3_sublabel1">투자 위험 사항 동의</string>
+    <string name="invest_register_step3_sublabel2">빈칸 입력</string>
+    <string name="invest_register_step3_sublabel3">신청 동의</string>
+    <string name="invest_register_step3_sublabel4">서명</string>
+    <string name="invest_register_step3_body">피플펀드 투자의 위험 사항에 대해 설명드리고 제반 동의를 받는 과정입니다. 하나씩 진행 부탁드립니다.</string>
+    <string name="invest_register_step3_body0">피플펀드 투자에 대해 안내드립니다.</string>
+    <string name="invest_register_step3_body1">투자 시 발생할 수 있는 위험에 대해 정리한 내용이니 꼼꼼히 읽어보시고 동의 부탁드려요. 이메일 (ggikko2@naver.com)로도 보내드렸습니다.</string>
+    <string name="invest_register_step3_body2">투자 위험 사항</string>
+    <string name="invest_register_step3_body3">밑줄친 빈칸을 채워주세요.</string>
+    <string name="invest_register_step3_body4">투자 설명서를</string>
+    <string name="invest_register_step3_body5">받고 숙지함</string>
+    <string name="invest_register_step3_body6">투자원금 손실</string>
+    <string name="invest_register_step3_body7">이 발생 가능함을</string>
+    <string name="invest_register_step3_body8">알고 있음</string>
+    <string name="invest_register_step3_body9">전북은행</string>
+    <string name="invest_register_step3_body10">은 어떠한 경우라도 대출자에</string>
+    <string name="invest_register_step3_body11">부실 책임</string>
+    <string name="invest_register_step3_body12">이</string>
+    <string name="invest_register_step3_body13">없음을 알고 있음</string>
+    <string name="invest_register_step3_body14">주요 위험 및 손익구조에 대해 설명을</string>
+    <string name="invest_register_step3_body15">읽고 이해하였음</string>
+    <string name="invest_register_step3_body16">연체, 부실대출의 채권추심행위</string>
+    <string name="invest_register_step3_body17">읽고 이해하였음</string>
+    <string name="invest_register_step3_body18">투자손실 위험의 자기책임원칙에 대해</string>
+    <string name="invest_register_step3_body19">읽고 이해하였음</string>
+    <string name="invest_register_step3_body20">아래 약관에 동의해주세요. 피플펀드 투자 구조와 관련된 내용입니다.</string>
+    <string name="invest_register_step3_body21">담보예금설정위탁 약관 동의</string>
+    <string name="invest_register_step3_body22">담보예금참가 약관 동의</string>
+    <string name="invest_register_step3_body23">개인(신용)정보 제3자 제공 동의</string>
+    <string name="invest_register_step3_body24">(담보예금참가신청)</string>
+    <string name="invest_register_step3_body25">개인정보 수집이용 동의</string>
+    <string name="invest_register_step3_body26">(담보제공 요청)</string>
+    <string name="invest_register_step3_body27">아래에 서명을 해주세요.</string>
+    <string name="invest_register_step3_body28">서명창 열기</string>
+    <string name="invest_register_step3_body29">다음</string>
+    <string name="invest_error">모든 과정을 수행해주세요</string>
+
+    <!-- step4 -->
+    <string name="invest_register_step4_label">Step 4</string>
+    <string name="invest_register_step4_sublabel">P2P대출투자금관리서비스 신청</string>
+    <string name="invest_register_step4">투자 상품 안내</string>
+    <string name="invest_register_step4_sublabel1">신청서 확인</string>
+    <string name="invest_register_step4_sublabel2">정보 입력</string>
+    <string name="invest_register_step4_sublabel3">신청 동의</string>
+    <string name="invest_register_step4_sublabel4">신분증 제출</string>
+    <string name="invest_register_step4_sublabel5">서명</string>
+
+    <string name="invest_register_step4_body">피플펀드 투자는 김진호님의 투자금을 협력은행에서 직접 관리하고 정산해드리기 때문에 자금 유용 가능성이 차단되는 안전한 금융거래서비스입니다. 이를 위한 협력 은행의 P2P대출투자금관리서비스를 신청하시는 단계입니다.</string>
+    <string name="invest_register_step4_body0">P2P대출투자금관리서비스 신청서를 확인해주세요. 보기를 눌러보시면 PDF형태로 내용을 확인하실 수 있습니다.</string>
+    <string name="invest_register_step4_body1">P2P대출트자금관리서비스 신청서</string>
+    <string name="invest_register_step4_body2">아래 정보를 입력해주시면 신청서에 자동으로 기입됩니다.</string>
+    <string name="invest_register_step4_body3">주소 (자택)</string>
+    <string name="invest_register_step4_body4">우편 번호</string>
+    <string name="invest_register_step4_body5">주소</string>
+    <string name="invest_register_step4_body6">상세 주소</string>
+    <string name="invest_register_step4_body7">계좌(투자금 입금 계좌)</string>
+    <string name="invest_register_step4_body8">은행을 선택해주세요</string>
+    <string name="invest_register_step4_body9">계좌 번호</string>
+    <string name="invest_register_step4_body91">신청동의</string>
+    <string name="invest_register_step4_body10">P2P대출투자금관리서비스 신청에 필요한 동의를 받고 있습니다.</string>
+    <string name="invest_register_step4_body11">개인(신용)정보 수집이용제공</string>
+    <string name="invest_register_step4_body111">동의서(비여신금융거래)</string>
+    <string name="invest_register_step4_body12">개인정보수집이용 동의서</string>
+    <string name="invest_register_step4_body121">(비여신, 상품명인자)</string>
+    <string name="invest_register_step4_body13">개인(신용)정보 제자제공동의서</string>
+    <string name="invest_register_step4_body14">본인확인 목적으로 신분증의 사본을 요청드립니다. 버튼을 눌러 신분증을 촬영 또는 업로드해주세요.</string>
+    <string name="invest_register_step4_body15">마지막으로 아래에 서명을 하시면 서비스 신청 끝!</string>
+
 </resources>

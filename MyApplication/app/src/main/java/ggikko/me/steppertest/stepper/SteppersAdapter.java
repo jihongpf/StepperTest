@@ -191,7 +191,8 @@ public class SteppersAdapter extends RecyclerView.Adapter<SteppersViewHolder> {
         }
 
         if(beforeStep == position) {
-            AnimationUtils.hide(holder.linearLayoutContent);
+            holder.linearLayoutContent.setVisibility(View.GONE);
+//            AnimationUtils.hide(holder.linearLayoutContent);
         }
         if(currentStep == position && !steppersItem.isDisplayed()) {
             steppersItem.setDisplayed(true);
@@ -203,17 +204,17 @@ public class SteppersAdapter extends RecyclerView.Adapter<SteppersViewHolder> {
             this.removeStep = currentStep;
             this.beforeStep = currentStep;
             this.currentStep = this.currentStep - 1;
-            Log.e("Library", "remove : "+removeStep+" before : "+beforeStep + "cureent  : "+ currentStep);
             notifyItemRangeChanged(removeStep, currentStep);
             notifyItemChanged(currentStep);
         } else Toast.makeText(context,"Cant go back on this one", Toast.LENGTH_SHORT).show();
     }
 
-    private void nextStep() {
+    public void nextStep() {
         this.removeStep = currentStep - 1 > -1 ? currentStep - 1 : currentStep;
         this.beforeStep = currentStep;
         this.currentStep = this.currentStep + 1;
         notifyItemRangeChanged(removeStep, currentStep);
+        steppersView.nextOkCallback();
     }
 
     protected void setItems(List<SteppersItem> items) {

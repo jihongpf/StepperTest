@@ -29,10 +29,13 @@ import android.widget.LinearLayout;
 
 import java.util.List;
 
+import ggikko.me.steppertest.MainActivity;
+
 public class SteppersView extends LinearLayout {
 
-    private RecyclerView recyclerView;
+    public static RecyclerView recyclerView;
     private SteppersAdapter steppersAdapter;
+    public static LinearLayoutManager linearLayoutManager;
 
     private Config config;
     private List<SteppersItem> items;
@@ -67,7 +70,6 @@ public class SteppersView extends LinearLayout {
 
     /*public void setPositiveButtonEnable(int position, boolean enable) {
         this.items.get(position).setPositiveButtonEnable(enable);
-
     }*/
 
     public void build() {
@@ -80,12 +82,14 @@ public class SteppersView extends LinearLayout {
 
             recyclerView = new RecyclerView(getContext());
             RecyclerView.LayoutParams layoutParams = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+//            RecyclerView.LayoutParams layoutParams = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 2000);
             recyclerView.setLayoutParams(layoutParams);
 
             addView(recyclerView);
 
             recyclerView.setHasFixedSize(true);
-            recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+            linearLayoutManager = new LinearLayoutManager(getContext());
+            recyclerView.setLayoutManager(linearLayoutManager);
 
             steppersAdapter = new SteppersAdapter(this, config, items);
             //steppersAdapter.setPossitiveButtonEnable(possitiveButtonEnable);
@@ -97,7 +101,15 @@ public class SteppersView extends LinearLayout {
         }
     }
 
-    private boolean possitiveButtonEnable = true;
+    public SteppersAdapter getSteppersAdapterInstance(){
+        return steppersAdapter;
+    }
+
+    private boolean positiveButtonEnable = true;
+
+    public void nextOkCallback() {
+        ((MainActivity)getContext()).deleteAllFocus();
+    }
 
     public static class Config {
 
@@ -106,7 +118,6 @@ public class SteppersView extends LinearLayout {
         private FragmentManager fragmentManager;
 
         public Config() {
-
         }
 
         public Config setOnFinishAction(OnFinishAction onFinishAction) {

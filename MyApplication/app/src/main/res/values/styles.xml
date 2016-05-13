@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
     </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
@@ -20,12 +21,14 @@
         <item name="android:textColor">#BDBDBD</item>
     </style>
 
+    <style name="Widget.AppCompat.Button.Colored.MyButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@drawable/text_color</item>
+    </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
 
     <style name="SubLabelActive">
         <item name="android:textSize">14sp</item>
@@ -36,5 +39,30 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#BDBDBD</item>
     </style>
+
+    <!-- invest second style -->
+    <style name="investSecond" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">#6a6a6a</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/silver</item>
+    </style>
+
+    <!-- Button Widget Style -->
+    <style name="Peoplefund.Widget.Button" parent="android:Widget.Button">
+        <!-- button background, touch feed back -->
+
+        <!-- button minimum size -->
+        <item name="android:minWidth">96dp</item>
+        <item name="android:minHeight">48dp</item>
+
+        <!-- button text style -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
 
 </resources>
