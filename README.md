@@ -1,2 +1,2 @@
 # StepperTest
-test
+vertical
